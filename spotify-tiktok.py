@@ -2,9 +2,18 @@ import spotipy
 import pprint
 import scrapeTokboard
 from spotipy.oauth2 import SpotifyOAuth
-import urllib.parse
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 pp = pprint.PrettyPrinter(indent=4)
+
+SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
+
+os.system("SET SPOTIFY_CLIENT_ID="+SPOTIFY_CLIENT_ID)
+os.system("SET SPOTIPY_CLIENT_SECRET="+SPOTIFY_CLIENT_SECRET)
+os.system("SET SPOTIPY_REDIRECT_URI=' http://example.com'")
 
 scope = "user-library-read playlist-modify-public playlist-modify-private"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))

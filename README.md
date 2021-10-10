@@ -13,6 +13,6 @@ Finally, we update the Spotify playlist with all our matches!
 
 # Use cases
 
-- If you are a TikToker, make sure you are using the freshest songs for the algorithm to pick up your TikTok to get famous and finally pay that student loan.
-- If you are a Boomer, you can see this as an anthropological dive into the Zoomer culture and bound with your niece at the next family dinner.
-- If you're a nerd, don't get mad at my ugly code, just turn on this playlist, get out and touch some grass.
+- If you are a **TikToker**, make sure you are using the freshest songs for the algorithm to pick up your TikToks so you can get famous and finally pay off that student loan.
+- If you are a **Boomer**, you can see this as an anthropological dive into the Zoomer culture and bond with your niece at the next family dinner.
+- If you're a **nerd**, don't get mad at my ugly code, just turn on this playlist, get outside and touch some grass.

@@ -35,19 +35,7 @@ for key, value in final_list.items():
 
 pp.pprint(tracks)
 
-# name = 'MF Doom'
-# track = 'Doomsday'
-# results = sp.search(q='artist:' + name + " track:" + track, type='track')
-
-# pp.pprint("RESULT OF SEARCH IS")
-# pp.pprint(results['tracks']['items'][1]['id'])
-
-# sp.playlist_replace_items(playlist_id='spotify:playlist:1qTk48mGiRpAhKyionVhEl',
-# items=['spotify:track:70We9AqHenA4jcmXmKzJnZ'])
-
 track_list = ["spotify:track:" + track for track in tracks]
 sp.playlist_replace_items(playlist_id='spotify:playlist:1qTk48mGiRpAhKyionVhEl',items=track_list)
-#sp.playlist_add_items(playlist_id='spotify:playlist:1qTk48mGiRpAhKyionVhEl',
-#                      items=track_list)
 
 print("Playlist Updated!")
